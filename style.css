@@ -19,7 +19,7 @@
 }
 
 html, body {                      /* geldt voor html en body */
-  margin: 0px;                    /* standaard marge 0 */
+  margin: 0px;   /* standaard marge 0 */
   background-color: #ffecd5;    /* achtergrondkleur lichtgrijs */
   color: #503a22;        /* tekstkleur donkergrijs */
 }  
@@ -70,10 +70,18 @@ img {
   width: 250px;
   padding-left: 15px;
 }
+.item-plaatje3 {
+  float: right;
+  padding-left: 15px;
+}
 
 .item-tekst {
   float:right;
   width: 450px;
+}
+.item-tekst2 {
+  float: left;
+  width:4 450px;
 }
 
 /* Indeling voor sub pagina */
@@ -103,6 +111,7 @@ a:hover {
 
 /* Navigatiebalk voor alle pagina's */
 nav ul {
+  width: 500px;
     list-style-type: none;
     margin: auto;
     padding: 0;
