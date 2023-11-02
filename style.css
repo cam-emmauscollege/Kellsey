@@ -83,6 +83,11 @@ img {
   float: left;
   width:4 450px;
 }
+.item-plaatjeklein {
+  float: left;
+  width: 30px;
+  margin-left: 20px;
+}
 
 /* Indeling voor sub pagina */
 
@@ -112,6 +117,7 @@ a:hover {
 /* Navigatiebalk voor alle pagina's */
 nav ul {
   width: 500px;
+  height: 45px;
     list-style-type: none;
     margin: auto;
     padding: 0;
@@ -139,3 +145,4 @@ nav li a:hover {
 nav li a.active {
     background-color: #503a22;
 }
+
