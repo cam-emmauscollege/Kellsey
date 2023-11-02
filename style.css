@@ -116,8 +116,7 @@ a:hover {
 
 /* Navigatiebalk voor alle pagina's */
 nav ul {
-  width: 500px;
-  height: 45px;
+  width: 440px;
     list-style-type: none;
     margin: auto;
     padding: 0;
@@ -146,3 +145,24 @@ nav li a.active {
     background-color: #503a22;
 }
 
+.loginbutton {
+  background-color: #d6ba99 ;
+  width: 80px;
+  color: #6b6b6b;
+  margin-left: 140px;
+  border-color: #42301d;
+}
+
+.input {
+  background-color: #d6ba99;
+  height: 20px;
+  width: 200px;
+  margin-left: 80px;
+}
+
+.loginto {
+  background-color: #9f713e;
+  height: 200px;
+  width: 50%;
+  margin-left: 180px;
+  }
