@@ -88,6 +88,11 @@ img {
   width: 30px;
   margin-left: 20px;
 }
+.item-plaatjeklein2 {
+  float: right;
+  width: 50px;
+  margin-right: 20px;
+}
 
 /* Indeling voor sub pagina */
 
@@ -148,21 +153,34 @@ nav li a.active {
 .loginbutton {
   background-color: #d6ba99 ;
   width: 80px;
+  height: 30px;
   color: #6b6b6b;
   margin-left: 140px;
+  margin-top: 3px;
   border-color: #42301d;
+  border-radius: 10px;
 }
 
 .input {
   background-color: #d6ba99;
-  height: 20px;
+  margin-top: 20px;
+  height: 30px;
   width: 200px;
+  color: black;
   margin-left: 80px;
+  border-radius: 10px;
+  border-color: #42301d;
 }
 
 .loginto {
-  background-color: #9f713e;
+  background-color: #a6794e;
   height: 200px;
   width: 50%;
   margin-left: 180px;
+  border-radius: 30px ;
   }
+
+h6 {
+  margin-left: 125px;
+  margin-top: 10px;
+}
